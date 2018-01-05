@@ -6,14 +6,60 @@
   -webkit-margin-end: 0
 }
 html {
-  background: #000000;
+  background: #3F3F3F;
   font-family: Calibri, Verdana, Arial, sans-serif
 }
 body {
-  background: #999999;
-  max-width: 960px;
+  background: #3F3F3F;
   margin: 0 auto;
-  padding-bottom: 16px;
+}
+
+header {
+  text-align: center;
+  background: #000000;
+}
+
+header img {
+  margin: auto;
+}
+
+#div-current-version {
+  margin: auto;
+  text-align: center;
+  background-color: #F0F0F0;
+  border-radius: 8px;
+  overflow: hidden;
+  display: table
+}
+
+#div-current-version img {
+  width: 96px;
+  display: table-cell
+}
+
+#div-current-version ul {
+  margin: 32px;
+  padding: 0;
+  list-style: none;
+  background-color: #FFFFFF;
+  vertical-align: middle;
+  display: table-cell
+}
+
+#div-current-version ul li {
+  margin: 0;
+  padding: 0
+}
+
+nav {
+  padding: 48px;
+  text-align: center
+}
+
+main {
+  margin: auto;
+  background: #9F9F9F;
+  width: 80%;
 }
 
 h2 {
@@ -43,9 +89,7 @@ li {
   background: #FFFFFF;
   margin: 8px auto;
   width: 800px;
-  border-radius: 8px;
   padding: 8px;
-  overflow: hidden
 }
 
 .changebox {
